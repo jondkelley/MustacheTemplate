@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-const Mustache = require('jinja');
+const Mustache = require('nunjucks');
 const Handlebars = require('handlebars');
 const HandlebarHelpers = require('./handlebar-helpers');
 const objectPath = require('object-path');
